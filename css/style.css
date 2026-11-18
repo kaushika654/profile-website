@@ -706,6 +706,7 @@ a {
   --color-primary: #b5532b;
   --color-primary-dark: #7f3a1c;
   --color-shadow: rgba(127, 58, 28, 0.18);
+  --color-text-inverse: #ffffff;
   background: var(--color-bg);
   color: var(--color-text);
 }
