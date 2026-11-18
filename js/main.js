@@ -88,3 +88,10 @@ if (window.matchMedia("(hover: none)").matches) {
     });
   });
 }
+
+/* Footer: current year and back-to-top button */
+document.getElementById("year").textContent = new Date().getFullYear();
+
+document.getElementById("back-to-top").addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
