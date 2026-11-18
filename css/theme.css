@@ -1,39 +1,39 @@
-:root { 
-    /* Primary Colors */ 
-    --color-primary: #2c3e50; 
-    --color-primary-light: #3498db; 
-    --color-primary-dark: #1a252f; 
- 
-    /* Background Colors */ 
-    --color-bg: #ffffff; 
-    --color-bg-secondary: #f8f9fa; 
-    --color-bg-card: #ffffff; 
- 
-    /* Text Colors */ 
-    --color-text: #2c3e50; 
-    --color-text-secondary: #6c757d; 
-    --color-text-inverse: #ffffff; 
- 
-    /* Accent & Borders */ 
-    --color-accent: #e74c3c; 
-    --color-border: #dee2e6; 
-    --color-shadow: rgba(0, 0, 0, 0.1); 
- 
-    /* Typography */ 
-    --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    --font-heading: 'Georgia', serif; 
-    --font-size-base: 16px; 
-    --font-size-h1: 2.5rem; 
-    --font-size-h2: 2rem; 
- 
-    /* Spacing */ 
-    --spacing-sm: 0.5rem; 
-    --spacing-md: 1rem; 
-    --spacing-lg: 2rem; 
-    --spacing-xl: 4rem; 
- 
-    /* Layout */ 
-    --max-width: 1200px; 
-    --border-radius: 8px; 
-    --transition-speed: 0.3s; 
-} 
+:root {
+  /* Primary Colors */
+  --color-primary: #0077b6;
+  --color-primary-light: #00b4d8;
+  --color-primary-dark: #023e8a;
+
+  /* Background Colors */
+  --color-bg: #f0fbff;
+  --color-bg-secondary: #e0f4fa;
+  --color-bg-card: #ffffff;
+
+  /* Text Colors */
+  --color-text: #0b2e4a;
+  --color-text-secondary: #4a6b82;
+  --color-text-inverse: #ffffff;
+
+  /* Accent & Borders */
+  --color-accent: #d9480f;
+  --color-border: #bfe6f2;
+  --color-shadow: rgba(2, 62, 138, 0.15);
+
+  /* Typography */
+  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-heading: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  --font-size-base: 16px;
+  --font-size-h1: 2.5rem;
+  --font-size-h2: 2rem;
+
+  /* Spacing */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Layout */
+  --max-width: 1200px;
+  --border-radius: 16px;
+  --transition-speed: 0.3s;
+}
