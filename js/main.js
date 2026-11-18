@@ -79,3 +79,12 @@ document.addEventListener("keydown", (event) => {
     closeLightbox();
   }
 });
+
+/* Family: tap to flip on touch devices */
+if (window.matchMedia("(hover: none)").matches) {
+  document.querySelectorAll(".flip-card").forEach((card) => {
+    card.addEventListener("click", () => {
+      card.classList.toggle("flipped");
+    });
+  });
+}
