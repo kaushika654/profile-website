@@ -1,23 +1,23 @@
 :root {
   /* Primary Colors */
-  --color-primary: #1abc9c;
-  --color-primary-light: #48d1cc;
-  --color-primary-dark: #16a085;
+  --color-primary: #0077b6;
+  --color-primary-light: #00b4d8;
+  --color-primary-dark: #023e8a;
 
   /* Background Colors */
-  --color-bg: #1a1a2e;
-  --color-bg-secondary: #16213e;
-  --color-bg-card: #0f3460;
+  --color-bg: #f0fbff;
+  --color-bg-secondary: #e0f4fa;
+  --color-bg-card: #ffffff;
 
   /* Text Colors */
-  --color-text: #e0e0e0;
-  --color-text-secondary: #a0a0a0;
-  --color-text-inverse: #1a1a2e;
+  --color-text: #0b2e4a;
+  --color-text-secondary: #4a6b82;
+  --color-text-inverse: #ffffff;
 
   /* Accent & Borders */
-  --color-accent: #e94560;
-  --color-border: #2a2a4a;
-  --color-shadow: rgba(0, 0, 0, 0.4);
+  --color-accent: #d9480f;
+  --color-border: #bfe6f2;
+  --color-shadow: rgba(2, 62, 138, 0.15);
 
   /* Typography */
   --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
