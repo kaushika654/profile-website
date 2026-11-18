@@ -95,19 +95,55 @@
           <article class="card">
             <span class="card-icon" aria-hidden="true">🎬</span>
             <h3 class="card-title">Movies &amp; Series</h3>
-            <p class="card-text">My favorite way to unwind is catching up on movies and TV shows, one story after another.</p>
+            <p class="card-text">Horror like The Conjuring keeps me on the edge of my seat, and a good mystery keeps me guessing until the end.</p>
             <ul class="chip-list">
-              <li>Movies</li>
-              <li>TV shows</li>
+              <li>The Conjuring</li>
+              <li>Enola Holmes</li>
+              <li>Death on the Nile</li>
             </ul>
           </article>
         </div>
       </div>
     </section>
     <section id="family"></section>
-    <section id="hobbies"></section>
+    <section id="hobbies" class="section section-alt">
+      <div class="container">
+        <div class="orbit">
+          <div class="orbit-center">
+            <h2 class="orbit-title">Hobbies &amp; Passions</h2>
+            <p class="orbit-hint">Tap a card to peek inside</p>
+          </div>
+          <button class="orbit-item orbit-item-top" type="button" data-title="Fishkeeping" data-text="Buddhu, my fighter fish, is the star of my home. I feed Buddhu every day and clean the tank every weekend, and I'm already looking forward to getting back to that routine.">
+            <img src="images/hobbies/fish-1.jpg" alt="Buddhu the fighter fish swimming in the tank" width="800" height="600">
+            <span class="orbit-caption">🐠 Fishkeeping</span>
+          </button>
+          <button class="orbit-item orbit-item-right" type="button" data-title="Reading" data-text="Give me a fictional world and I'll happily disappear into it. Harry Potter, The Book Thief and the Shadowhunter series are my comfort reads, and thrillers keep me turning pages late into the night.">
+            <img src="images/hobbies/books-1.jpg" alt="My bookshelf full of books" width="800" height="600">
+            <span class="orbit-caption">📚 Reading</span>
+          </button>
+          <button class="orbit-item orbit-item-bottom" type="button" data-title="Tank Time" data-text="Every weekend is tank-cleaning day. A clean tank keeps Buddhu healthy and happy, and seeing the water sparkle again is oddly satisfying.">
+            <img src="images/hobbies/fish-2.jpg" alt="Buddhu the fighter fish close to the glass" width="800" height="600">
+            <span class="orbit-caption">🫧 Tank Time</span>
+          </button>
+          <button class="orbit-item orbit-item-left" type="button" data-title="My Bookshelf" data-text="My little collection of worlds to escape into. There is always room for one more book on the shelf.">
+            <img src="images/hobbies/books-2.jpg" alt="Another view of my bookshelf" width="800" height="600">
+            <span class="orbit-caption">📖 My Bookshelf</span>
+          </button>
+        </div>
+      </div>
+    </section>
   </main>
   <footer id="footer"></footer>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close">&times;</button>
+      <img class="lightbox-image" id="lightbox-image" src="images/hobbies/fish-1.jpg" alt="Expanded hobby photo">
+      <div class="lightbox-body">
+        <h3 class="lightbox-title" id="lightbox-title">Hobby</h3>
+        <p class="lightbox-text" id="lightbox-text"></p>
+      </div>
+    </div>
+  </div>
   <script src="js/main.js"></script>
 </body>
 </html>
