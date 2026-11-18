@@ -8,12 +8,64 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <nav></nav>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-logo" href="#hero">Kaushika</a>
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle menu" aria-expanded="false">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#family">Family</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <section id="hero"></section>
-    <section id="journey"></section>
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow">Hello, I'm <span class="wave" role="img" aria-label="waving hand">👋</span></p>         
+          <h1 class="hero-title">Kaushika</h1>
+          <p class="hero-tagline">Tech Learner | Living Through Stories | Always Curious</p>
+          <p class="hero-intro">Hi, I'm someone who enjoys learning new things, exploring technology, and solving problems. Outside work, you'll probably find me immersed in a fictional world, reading books like Harry Potter, The Book Thief, or the Shadowhunter series, or catching up on movies and TV shows.</p>
+          <a class="btn" href="#journey">Explore My Journey &rarr;</a>
+        </div>
+        <img class="hero-photo" src="images/hero/profile.jpg" alt="Portrait of Your Name" width="380" height="380">
+      </div>
+    </section>
+     <section id="journey" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Professional Journey</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <article class="timeline-card">
+              <span class="timeline-icon" aria-hidden="true">🎓</span>
+              <p class="timeline-year">2026</p>
+              <h3 class="timeline-role">Completed Bachelor's Degree</h3>
+              <p class="timeline-org">Sri Krishna College of Engineering and Technology</p>
+              <p class="timeline-desc">Completed my Bachelor's degree in Electronics and Communication Engineering, building a foundation in digital electronics, communication systems, and programming.</p>
+              <p class="timeline-more">Extra detail: Worked on academic projects involving renewable energy, and intelligent monitoring systems, while developing an interest in technology and problem-solving.</p>
+              <button class="timeline-toggle" type="button" aria-expanded="false">Show more</button>
+            </article>
+          </li>
+          <li class="timeline-item">
+            <article class="timeline-card">
+              <span class="timeline-icon" aria-hidden="true">💼</span>
+              <p class="timeline-year">2026</p>
+              <h3 class="timeline-role">Started Professional Journey</h3>
+              <p class="timeline-org">Graduate Trainee | Psiog</p>
+              <p class="timeline-desc">Began my professional journey at Psiog, transitioning from academic learning to industry-oriented technical training and professional development.</p>
+              <p class="timeline-more">Extra detail: Learning database concepts, writing SQL queries, understanding OLTP and OLAP systems, and exploring object-oriented programming concepts using C#.</p>
+              <button class="timeline-toggle" type="button" aria-expanded="false">Show more</button>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
     <section id="interests"></section>
     <section id="family"></section>
     <section id="hobbies"></section>
